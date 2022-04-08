@@ -27,8 +27,12 @@
   <a href="https://t.me/go_minerproxy">Telegram 通知頻道</a>
 </p>
 
+## :sparkles: 功能
+該工具可用於僅支持TCP的礦機使用SSL地址。僅需在任一電腦或虛擬機部署GoMinerTool-TCP2SSL，即可供所有處於同一局域網的礦機連接。
+
 ## :hammer_and_wrench: 部署
 該程式暫無任何界面，僅可命令行使用
+<img src="https://raw.githubusercontent.com/GoMinerProxy/GoMinerTool-TCP2SSL/main/images/use.jpg"/>
 ```shell
 Usage: tcp2ssl <listen> <upstream>
 使用方法：tcp2ssl <監聽端口> <轉向的SSL地址>
